@@ -23,7 +23,9 @@ Namespace My
     '   e.MinimumSplashScreenDisplayTime = 4000
     ' End Sub
 
-    Partial Friend Class MyApplication
 
+    Partial Friend Class MyApplication
+        Friend currentDatabasePath As String
     End Class
+
 End Namespace
